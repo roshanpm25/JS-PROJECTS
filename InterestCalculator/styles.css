@@ -1,0 +1,72 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(239, 234, 227);
+}
+
+h1{
+    color: brown;
+    font-size: 3em;
+    text-align: center;
+}
+
+form{
+    background-color: rgb(239, 234, 227);
+    max-width: 350px;
+    margin: auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow:  5px 5px 10px ;
+    display: flex;
+    flex-direction: column;                             
+    align-items: center;
+}
+
+/*When you apply display: flex; to a container, its child elements become flex items, allowing them to adjust their size, position, and alignment based on the container's available space.
+
+display: flex; – Activates Flexbox on the container.
+
+flex-direction: row | column | row-reverse | column-reverse; – Defines the main axis direction.
+
+justify-content: – Aligns items along the main axis:
+
+*/
+
+label{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+input{
+    width: 50%;
+    text-align:end;
+    font-size: 2em;
+    border-radius: 5px;
+    border-color: white;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+button{
+    background-color: hsl(120, 97%, 41%);
+    color: white;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+
+}
+
+button:hover{
+    background-color: hsl(120, 97%, 51%);
+}
+
+#total{
+    font-size: 2em;
+}
+
+#total-amt{
+    color: hsl(120, 100%, 35%);
+    font-weight: bold;
+
+}

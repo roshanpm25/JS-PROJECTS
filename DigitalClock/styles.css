@@ -1,0 +1,29 @@
+body{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxXnC3fwMwkbIt3ejGRIw3NmbDyUtgS5g2jA&s");
+    margin: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+
+
+}
+
+#clock-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;          /*changes according to the screen*/
+}
+
+#clock{
+    font-family: monospace;
+    font-size: 6rem;
+    font-weight: bold;
+    text-align: center;
+    color: aliceblue;
+    backdrop-filter: blur(8px);                         /*blur effect*/
+    background-color: hsla(0,0%, 100%, 0.1);        /*foggy effect*/
+
+}
