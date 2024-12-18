@@ -1,10 +1,17 @@
+
 body{
     font-family:'Times New Roman', Times, serif;
-    background-color: rgb(245, 245, 231);
+    background-image: 
+        linear-gradient(
+            to bottom,
+            #dcdcdc 50%,
+            #e9e9e9 50%
+        );
     display: flex;
     margin: 0;
     align-items: center;
     flex-direction: column;
+    min-height: 100vh;
 
 }
 
@@ -20,6 +27,8 @@ body{
     border: 2px solid black;
     border-radius: 10px;
     width: 300px;
+    background-color: #f7f7f7;
+
 }
 
 button[type="submit"]{
@@ -40,7 +49,7 @@ button[type="submit"]{
 }
 
 .card{
-    background: linear-gradient(180deg,rgb(90, 90, 240),rgb(241, 73, 101));
+    background-color: rgb(253, 253, 253);
     padding: 50px;
     margin: 10px;
     text-align: center;
@@ -48,7 +57,8 @@ button[type="submit"]{
     min-width: 300px;
     display: flex;
     flex-direction: column;
-    border-radius: 3px;
+    border-radius: 15px;
+
 
 }
 
@@ -70,18 +80,34 @@ p{
 }
 
 .humidity{
-    margin-bottom: 25px;
+    
+    display:inline-block;
+    box-sizing: border-box;
+    margin-bottom:10px;
     font-weight: bold;
+    background-color: #f78a55;
+    padding-left: 0; padding-right: 0; padding-top: 10px;padding-bottom: 5px;margin-bottom: 10;
+    border-radius: 20px;
+    background-image:linear-gradient(to bottom, transparent 50%, #0003 50%);
+
 }
 
 .desc{
+    display: inline-block;
     margin-bottom: 25px;
     font-weight: bold;
     font-style: italic;
+    padding-left: 0; padding-right: 0; margin: 0;  padding-top: 10px;padding-bottom: 5px;
+    border-radius: 15px;
+    background-color: #f78a55;
+    background-image:linear-gradient(to bottom, transparent 50%, #0003 50%);
+
 }
 .emoji{
     margin:0px;
     font-size: 6rem;
+    filter: drop-shadow(0 10px 50px #555);  
+        /*foggy appearance*/
 }
 
 .error{
@@ -89,6 +115,7 @@ p{
     font-weight: bold;
     color: rgb(46, 44, 44);
 }
+
 
 
 

@@ -70,7 +70,8 @@ function weatherinfo(data)
 
     city_show.textContent=city;
     temp1.textContent=`${((temp-273.15)*(9/5)+32).toFixed(1)}C`;
-    humidity1.textContent=`Humidity : ${humidity}%`;
+    humidity1.innerHTML = `Humidity <br>${humidity}%`;
+
     desc.textContent=description;
     weather1.textContent=emoji(id);
 
