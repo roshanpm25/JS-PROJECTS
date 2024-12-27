@@ -1,0 +1,68 @@
+button{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(103, 102, 102);
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover{
+background-color: rgb(125, 123, 123);
+}
+
+button:active{
+    background-color: rgb(165, 164, 164); 
+}
+
+.op-btn{
+    background-color: orange;
+}
+
+.op-btn:hover{
+    background-color: rgb(245, 173, 39);
+}
+
+.op-btn:active{
+    background-color: rgb(254, 196, 89);
+}
+
+#keys{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);   /*1 fr each col must have same space  */
+    gap: 10px;
+    padding: 25px;
+}
+
+#calc{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(23, 23, 23);
+    border-radius: 15px;
+    max-width: 500px;
+    overflow: hidden;
+}
+
+#display{
+    width: 100%;
+    padding: 20px;
+    font-size: 5rem;
+    text-align: left;
+    border: none;
+    background-color: rgb(57, 57, 56);
+}
+
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/*
+height: 100vh in CSS sets the element's height to 100% of the viewport height. 
+The viewport height (vh) is the height of the browser window or the visible screen area.
+100vh means the element's height will match the full height of the screen.*/
